@@ -63,6 +63,7 @@ p{
 .hundredTwo{
     border: 2px solid #ff5959;
     color: #ff5959;
+    border-radius: 3px;
 }
 .donate-plan{
     text-align: center;

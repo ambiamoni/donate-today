@@ -1,4 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Lobster&family=Montserrat:wght@300;500;600;700&display=swap');
+
 body{
     font-family: 'Inter', sans-serif;
-    margin:0;
+    margin: 0 !important;
+}
+#top-banner{     
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    height: 669px;
+}
+
+.bg{
+    background: rgb(0,0,0,.5);
+    height: 669px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-content{
+    padding: 60px 0 60px 0;
+    color:#fff;
+    text-align: center;
+}
+.top-content h1{
+    font-size: 60px;
+}
+h1{
+    font-size: 40px;
+    line-height: 1.2rem;
+}
+p{
+    font-size: 14px;    
+}
+
+.button{
+    padding: 12px 22px;
+    background-color: #ff5959;
+    color:#fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 20px;
+}
+.donate-today{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.donate-bottom{    
+    display: flex;
+    justify-content: center; 
+    margin-top: 50px;
+    color: #707070;
+}
+.donate-bottom h3{
+    margin:25px;
+}
+.hundredTwo{
+    border: 2px solid #ff5959;
+    color: #ff5959;
+}
+.donate-plan{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.donate-plan-top{
+    margin-bottom: 50px;
+}
+.header{
+    text-align: center;
+}
+.header h2{
+    font-size: 45px;
+}
+.header p{
+    color: #707070;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+.single-icon{
+    width:350px;
+    padding: 55px 20px;
+    text-align: left;
+}
+
+.card-bg{
+    background-color: antiquewhite;
+}
+
+.other-amount{
+    margin: 60px 0px 40px 6px;
+    color: #B3B3B3;
+    font-size: 18px;
+}
+
+.input-div{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    background-color: antiquewhite;
+    width: 810px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+
+.input-field{
+    border: 0px;
+    background-color: #ddd;
+    padding: 15px 15px;
+    width: 250px;
+}
+.input-button{
+    padding: 12px 22px;
+    background-color: #ff5959;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer{
+    background-color: #0B0D17;
+    text-align: center;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.footer h2{
+    font-size: 36px;
+    color: #FF5959;
+    font-family: 'Lobster', cursive;
+}
+.footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    font-weight: 200;
+    font-family: 'Inter', sans-serif;
 }

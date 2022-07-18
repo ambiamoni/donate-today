@@ -28,7 +28,7 @@ body{
     font-size: 60px;
 }
 h1{
-    font-size: 40px;
+    font-size: 45px;
     line-height: 1.2rem;
 }
 p{
@@ -60,10 +60,17 @@ p{
 .donate-bottom h3{
     margin:25px;
 }
+.other-amount p{
+    font-size: 18px;
+}
 .hundredTwo{
     border: 2px solid #ff5959;
     color: #ff5959;
     border-radius: 3px;
+}
+hr{
+    width:40%;
+    color:#D1d1d1;
 }
 .donate-plan{
     text-align: center;
